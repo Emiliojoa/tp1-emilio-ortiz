@@ -1,6 +1,3 @@
-
-
-
 export class Jugador {
     id: string;
     nombre: string;

@@ -9,6 +9,10 @@ export class Equipo implements ICompetidor {
         this.nombre = nombre;
     }
 
+    getJugadores(): Jugador[] {
+        return this.jugadores;
+    }
+
     agregarJugador(jugador: Jugador): void {
        
         if (this.jugadores.some(j => j.id === jugador.id)) {
